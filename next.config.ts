@@ -4,8 +4,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   basePath: '/me',
   assetPrefix: '/me',
-  trailingSlash: false,
-  output: 'export'
+  trailingSlash: true,
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
 };
 
 export default nextConfig;
