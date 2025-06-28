@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "npx serve@latest out -s -p 3007",
     "start:alt": "npx http-server out -p 3007 -c-1 --proxy http://localhost:3007/me/index.html?",
-    "deploy": "echo 'TEMPORARY FOR NOW.\n\nhostinger;\ncd __;\ncd me;\ngit pull\nnpm run build'",
+    "deploy": "echo 'TODO:TEMPORARY FOR NOW.\n\nhostinger;\ncd __;\ncd me;\nnvm use;\ngit pull\nnpm run build'",
     "lint": "next lint"
   },
   "dependencies": {
