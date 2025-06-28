@@ -433,12 +433,12 @@ export default function HomePage() {
                 Technical Leadership That Delivers Results
               </p>
               <div className="space-y-3">
-                <div className="flex items-center space-x-3 hover:bg-healthcare-teal/10 p-2 rounded-lg transition-colors group">
+                {/* <div className="flex items-center space-x-3 hover:bg-healthcare-teal/10 p-2 rounded-lg transition-colors group">
                   <Phone className="h-4 w-4 text-success-green group-hover:text-healthcare-teal" />
-                  <a href="tel:323-942-7614" className="hover:text-healthcare-teal transition-colors font-medium">
-                    323-942-7614
+                  <a href="tel:323-XXX-XXXX" className="hover:text-healthcare-teal transition-colors font-medium">
+                    323-XXX-XXXX
                   </a>
-                </div>
+                </div> */}
                 <div className="flex items-center space-x-3 hover:bg-healthcare-teal/10 p-2 rounded-lg transition-colors group">
                   <Mail className="h-4 w-4 text-success-green group-hover:text-healthcare-teal" />
                   <a href="mailto:weng.f.fung@gmail.com" className="hover:text-healthcare-teal transition-colors font-medium">

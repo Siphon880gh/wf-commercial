@@ -67,15 +67,15 @@ export function Navigation() {
         {/* Enhanced CTA Section */}
         <div className="flex items-center space-x-4">
           {/* Professional Phone Display */}
-          <div className="hidden xl:flex items-center space-x-2 bg-muted rounded-lg px-3 py-2 hover:bg-healthcare-teal hover:text-white transition-all duration-200 group">
+          {/* <div className="hidden xl:flex items-center space-x-2 bg-muted rounded-lg px-3 py-2 hover:bg-healthcare-teal hover:text-white transition-all duration-200 group">
             <Phone className="h-4 w-4 text-success-green group-hover:text-white" />
             <div className="flex flex-col">
               <span className="text-2xs text-muted-foreground group-hover:text-white/80 font-medium">Direct Line</span>
-              <a href="tel:323-942-7614" className="font-bold text-sm hover:text-white transition-colors">
-                323-942-7614
+              <a href="tel:323-XXX-XXXX" className="font-bold text-sm hover:text-white transition-colors">
+                323-XXX-XXXX
               </a>
             </div>
-          </div>
+          </div> */}
           
           {/* Premium CTA Button */}
           <Button 
@@ -153,11 +153,12 @@ export function Navigation() {
             </Link>
             
             {/* Mobile CTA */}
-            <div className="pt-4 border-t">
+            {/* Removing - Dont want scrapers to telemarketers/scammers */}
+            {/* <div className="pt-4 border-t">
               <div className="flex items-center space-x-2 mb-3">
                 <Phone className="h-4 w-4 text-healthcare-teal" />
-                <a href="tel:323-942-7614" className="font-bold text-sm hover:text-brand-primary transition-colors">
-                  323-942-7614
+                <a href="tel:323-XXX-XXXX" className="font-bold text-sm hover:text-brand-primary transition-colors">
+                  323-XXX-XXXX
                 </a>
               </div>
               <Button 
@@ -168,7 +169,7 @@ export function Navigation() {
                   Book Free Consultation
                 </Link>
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

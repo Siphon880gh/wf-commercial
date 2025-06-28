@@ -55,21 +55,21 @@ export default function ContactPage() {
             </div>
 
             <div className="grid lg:grid-cols-4 gap-8">
-              <Card className="text-center">
+              {/* <Card className="text-center">
                 <CardHeader>
                   <Phone className="h-12 w-12 text-primary mx-auto mb-4" />
                   <CardTitle>Phone Call</CardTitle>
                   <CardDescription>Direct line for urgent matters</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <a href="tel:323-942-7614" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
-                    323-942-7614
+                  <a href="tel:323-XXX-XXXX" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
+                    323-XXX-XXXX
                   </a>
                   <p className="text-sm text-muted-foreground mt-2">
                     Available Mon-Fri, 9 AM - 6 PM PST
                   </p>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               <Card className="text-center">
                 <CardHeader>
