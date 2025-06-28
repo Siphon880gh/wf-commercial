@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start -p 3007",
-    "lint": "next lint"
+    "start": "NODE_ENV=production && npx serve@latest out -p 3007",    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.13",

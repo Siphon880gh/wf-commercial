@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   basePath: '/me',
   assetPrefix: '/me',
   trailingSlash: false,
-  output: 'standalone'
+  output: 'export'
 };
 
 export default nextConfig;
